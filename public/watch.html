@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+
+	video {
+
+	    min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+	}
+
+    </style>
+  </head>
+  <body>
+
+    <video id="videoSource" playsinline autoplay muted></video>
+
+    <script src="socket.io/socket.io.min.js"></script>
+    <script src="watch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+	    canvas {
+		    width: 320px;
+		    height: 320px;
+	    }
+    </style>
+  </head>
+  <body>
+    <audio id="localAudio" playsinline autoplay muted></audio>
+    <audio id="remoteAudio" playsinline autoplay></audio>
+    <video id="localVideo" playsinline autoplay muted></video>
+    <canvas id="canvas"></canvas>
+    <script src="socket.io/socket.io.min.js"></script>
+    <script src="motion-detection.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
